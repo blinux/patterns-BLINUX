@@ -1,0 +1,189 @@
+Name:           patterns-BLINUX
+Version:        2.0
+Release:        0
+Summary:        Patterns for Installation (full ftp tree)
+License:        BSD-2-Clause
+Group:          Metapackages
+Url:            https://blinux.fr
+BuildRequires:  patterns
+BuildRoot:      %{_tmppath}/%{name}-%{version}-build
+
+%description
+This is an internal package that is used to create the patterns as part
+of the installation source setup.  Installation of this package does
+not make sense.
+
+%package base
+Summary:        Meta package for pattern base
+Group:          Metapackages
+Provides:       patterns-BLINUX-basesystem
+Requires:	BLINUX-release
+Requires:	aaa_base
+Requires:	acl
+Requires:	acpica
+Requires:	adjtimex
+Requires:	alsa
+Requires:	alsa-oss
+Requires:	alsa-plugins
+Requires:	alsa-plugins-pulse
+Requires:	alsa-tools
+Requires:	alsa-tools-gui
+Requires:	alsa-utils
+Requires:	alsamixergui
+Requires:	attr
+Requires:	autofs
+Requires:	bc
+Requires:	bind-utils
+Requires:	branding-BLINUX
+Requires:	bzip2
+Requires:	curl
+Requires:	dejavu
+Requires:	deltarpm
+Requires:	dhcpcd
+Requires:	diffutils
+Requires:	dmidecode
+Requires:	dmraid
+Requires:	dos2unix
+Requires:	dosfstools
+Requires:	droid-fonts
+Requires:	e2fsprogs
+Requires:	ed
+Requires:	efont-unicode
+Requires:	ethtool
+Requires:	file
+Requires:	fillup
+Requires:	findutils
+Requires:	freeglut
+Requires:	freeglut
+Requires:	gawk
+Requires:	ghostscript-fonts-other
+Requires:	ghostscript-fonts-std
+Requires:	ghostscript-x11
+Requires:	glibc-32bit
+Requires:	glibc-locale
+Requires:	glibc-locale-32bit
+Requires:	gpart
+Requires:	gpg2
+Requires:	gpm
+Requires:	groff
+Requires:	grub2-branding-BLINUX
+Requires:	grub2-x86_64-efi
+Requires:	hdparm
+Requires:	hwinfo
+Requires:	ifnteuro
+Requires:	ifplugd
+Requires:	iftop
+Requires:	info
+Requires:	intlfnts
+Requires:	iproute2
+Requires:	iputils
+Requires:	irqbalance
+Requires:	kbd
+Requires:	kernel
+Requires:	klogd
+Requires:	kpartx
+Requires:	ksh
+Requires:	ksymoops
+Requires:	less
+Requires:	libatm1
+Requires:	liberation-fonts
+Requires:	lightdm
+Requires:	linux32
+Requires:	lsb-release
+Requires:	lsof
+Requires:	lsscsi
+Requires:	man
+Requires:	man-pages
+Requires:	man-pages-posix
+Requires:	master-boot-code
+Requires:	mcelog
+Requires:	microcode_ctl
+Requires:	mkinitrd
+Requires:	module-init-tools
+Requires:	mtr
+Requires:	ncurses-utils
+Requires:	netcat-openbsd
+Requires:	netcfg
+Requires:	network-config-BLINUX
+Requires:	nmap
+Requires:	ntp
+Requires:	numactl
+Requires:	numlockx
+Requires:	openssh
+Requires:	openssh-askpass
+Requires:	patterns-BLINUX-base
+Requires:	pax
+Requires:	perl-base
+Requires:	pm-utils
+Requires:	polkit
+Requires:	polkit-default-privs
+Requires:	procinfo
+Requires:	procps
+Requires:	providers
+Requires:	pulseaudio
+Requires:	pulseaudio-module-x11
+Requires:	pulseaudio-utils
+Requires:	pwdutils
+Requires:	python3
+Requires:	rpcbind
+Requires:	rpm
+Requires:	rsync
+Requires:	sash
+Requires:	sbin_init
+Requires:	screen
+Requires:	setserial
+Requires:	sharutils
+Requires:	shim
+Requires:	skel-BLINUX
+Requires:	strace
+Requires:	suspend
+Requires:	sysconfig
+Requires:	sysconfig-cli
+Requires:	systemd-sysvinit
+Requires:	tar
+Requires:	tcpdump
+Requires:	tcsh
+Requires:	telnet
+Requires:	terminfo
+Requires:	time
+Requires:	timezone
+Requires:	translation-update
+Requires:	udev
+Requires:	util-linux
+Requires:	vim
+Requires:	vlan
+Requires:	w3m
+Requires:	wget
+Requires:	which
+Requires:	whois
+Requires:	wireless-tools
+Requires:	wireshark
+Requires:	wol
+Requires:	wpa_supplicant
+Requires:	x11-tools
+Requires:	xdmbgrd
+Requires:	xkeyboard-config
+Requires:	xorg-x11-Xvnc
+Requires:	xorg-x11-driver-input
+Requires:	xorg-x11-driver-video
+Requires:	xorg-x11-essentials
+Requires:	xorg-x11-fonts
+Requires:	xorg-x11-fonts-core
+Requires:	xorg-x11-libX11-ccache
+Requires:	xorg-x11-server
+Requires:	xorg-x11-xauth
+Requires:	xterm
+Requires:	xtermset
+Requires:	zisofs-tools
+Requires:	zsh
+
+%description base
+Base package with everything you need (or almost)
+
+%prep
+
+%build
+
+%install
+
+%files
