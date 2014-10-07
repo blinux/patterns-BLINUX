@@ -25,7 +25,7 @@
 
 Name:           patterns-BLINUX
 Version:        2.0
-Release:        14
+Release:        15
 Summary:        Meta package for pattern base
 Group:          Metapackages
 License:        BSD-2-Clause
@@ -62,6 +62,7 @@ Requires:	bzip2
 Requires:	camarchepas
 Requires:	chromium
 Requires:	chromium-desktop-gnome
+Requires:	chromium-pepper-flash
 Requires:	curl
 Requires:	dejavu
 Requires:	deltarpm
