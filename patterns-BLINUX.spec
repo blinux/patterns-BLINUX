@@ -36,7 +36,6 @@ BuildArch:      noarch
 
 Provides:       patterns-BLINUX-basesystem
 Requires:	BLINUX-release
-Requires:	repo-BLINUX
 Requires:	ImageMagick
 Requires:	MozillaFirefox
 Requires:	MozillaFirefox-branding-upstream
@@ -62,6 +61,7 @@ Requires:	branding-BLINUX
 Requires:	bzip2
 Requires:	camarchepas
 Requires:	chromium
+Requires:	chromium-pepper-flash
 Requires:	chromium-desktop-gnome
 Requires:	curl
 Requires:	dejavu
@@ -94,6 +94,7 @@ Requires:	glibc-locale-32bit
 Requires:	gnome-screensaver
 Requires:	gpart
 Requires:	gpg2
+Requires:	gpicview
 Requires:	gpm
 Requires:	groff
 Requires:	hdparm
@@ -145,9 +146,9 @@ Requires:	ns_auth
 Requires:	ntp
 Requires:	numactl
 Requires:	numlockx
-Requires:	orca
 Requires:	openssh
 Requires:	openssh-askpass
+Requires:	orca
 Requires:	p7zip
 Requires:	pax
 Requires:	pdftk
@@ -163,6 +164,7 @@ Requires:	pulseaudio-module-x11
 Requires:	pulseaudio-utils
 Requires:	pwdutils
 Requires:	python3
+Requires:	repo-BLINUX
 Requires:	rpcbind
 Requires:	rpm
 Requires:	rsync
@@ -184,10 +186,11 @@ Requires:	telnet
 Requires:	terminfo
 Requires:	time
 Requires:	timezone
-Requires:	translation-update
 Requires:	totem
+Requires:	translation-update
 Requires:	udev
 Requires:	util-linux
+Requires:	vgaswitcheroo
 Requires:	vim
 Requires:	vlan
 Requires:	w3m
@@ -220,8 +223,6 @@ Requires:	xtermset
 Requires:	zisofs-tools
 Requires:	zsh
 Requires:       xscreensaver
-Requires:	gpicview
-Requires:	vgaswitcheroo
 
 %description
 This is an internal package that is used to create the patterns as part
