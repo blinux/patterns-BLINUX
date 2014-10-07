@@ -61,7 +61,6 @@ Requires:	branding-BLINUX
 Requires:	bzip2
 Requires:	camarchepas
 Requires:	chromium
-Requires:	chromium-pepper-flash
 Requires:	chromium-desktop-gnome
 Requires:	curl
 Requires:	dejavu
