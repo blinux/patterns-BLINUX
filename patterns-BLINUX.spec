@@ -223,6 +223,9 @@ Requires:	zisofs-tools
 Requires:	zsh
 Requires:       xscreensaver
 
+Conflicts:	sudo
+Conflicts:	gdm
+
 %description
 This is an internal package that is used to create the patterns as part
 of the installation source setup.  Installation of this package does
