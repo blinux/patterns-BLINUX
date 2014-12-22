@@ -223,7 +223,6 @@ Requires:	zisofs-tools
 Requires:	zsh
 Requires:       xscreensaver
 
-Conflicts:	sudo
 Conflicts:	gdm
 
 %description
