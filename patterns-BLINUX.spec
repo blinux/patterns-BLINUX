@@ -25,11 +25,12 @@
 
 Name:           patterns-BLINUX
 Version:        2.0
-Release:        15
+Release:        16
 Summary:        Meta package for pattern base
 Group:          Metapackages
 License:        BSD-2-Clause
 Url:            http://www.blinux.fr
+Vendor:		Blinux
 BuildRequires:  patterns
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
