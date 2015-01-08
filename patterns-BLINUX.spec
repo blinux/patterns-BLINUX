@@ -25,7 +25,7 @@
 
 Name:           patterns-BLINUX
 Version:        2.0
-Release:        16
+Release:        17
 Summary:        Meta package for pattern base
 Group:          Metapackages
 License:        BSD-2-Clause
