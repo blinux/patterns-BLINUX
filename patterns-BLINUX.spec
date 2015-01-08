@@ -63,6 +63,7 @@ Requires:	bzip2
 Requires:	camarchepas
 Requires:	chromium
 Requires:	chromium-desktop-gnome
+Requires:	chromium-pepper-flash
 Requires:	curl
 Requires:	dejavu
 Requires:	deltarpm
