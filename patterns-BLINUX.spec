@@ -26,10 +26,13 @@
 Name:           patterns-BLINUX
 Version:        3.0
 Release:        14
+Version:        2.0
+Release:        17
 Summary:        Meta package for pattern base
 Group:          Metapackages
 License:        BSD-2-Clause
 Url:            http://www.blinux.fr
+Vendor:		Blinux
 BuildRequires:  patterns
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
@@ -62,6 +65,7 @@ Requires:	bzip2
 Requires:	camarchepas
 Requires:	chromium
 Requires:	chromium-desktop-gnome
+Requires:	chromium-pepper-flash
 Requires:	curl
 Requires:	dejavu
 Requires:	deltarpm
@@ -222,6 +226,8 @@ Requires:	xtermset
 Requires:	zisofs-tools
 Requires:	zsh
 Requires:       xscreensaver
+
+Conflicts:	gdm
 
 %description
 This is an internal package that is used to create the patterns as part
