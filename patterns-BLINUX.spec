@@ -24,7 +24,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 Name:           patterns-BLINUX
-Version:        2.0
+Version:        3.0
 Release:        14
 Summary:        Meta package for pattern base
 Group:          Metapackages
